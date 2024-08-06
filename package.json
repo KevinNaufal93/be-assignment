@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "name": "be-assignment",
+  "description": "Build 2 Backend services which manages user’s accounts and transactions (send/withdraw).",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Kevin",
+  "license": "ISC"
+}
